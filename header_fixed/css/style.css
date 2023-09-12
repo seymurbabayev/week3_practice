@@ -1,0 +1,33 @@
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+p {
+    font-size: 20px;
+    color: #666;
+    line-height: 20px;
+    margin-top: 5px;
+}
+header {
+    /* width: 100%; */
+    padding: 10px 30px;
+    background-color: #777;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+.header_logo {
+    width: 100px;
+    height: 100px;
+}
+.header_menu {
+    display: flex;
+    gap: 20px;
+}
+.header_menu a {
+    color: #fff;
+    font-size: 24px;
+    letter-spacing: 1px;
+}

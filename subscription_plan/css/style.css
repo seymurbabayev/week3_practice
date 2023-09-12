@@ -1,0 +1,46 @@
+main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    max-width: 650px;
+    width: 70%;
+}
+
+.card {
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+    border: 1px solid #666;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.card_desc {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.card_desc .price {
+    font-size: 32px;
+    font-weight: 900;
+}
+.card_desc li {
+    margin-top: 10px;
+}
+.card button {
+    background-color: #f2730a;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 5px 0;
+}
